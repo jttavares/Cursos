@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cliente e Servidor</title>
+</head>
+<body>
+    <h1>Cliente side  e Server Side</h1>
+    <p>Client-side scripts, ou scripts do lado do cliente, são responsáveis pelas ações executadas no navegador sem comunicação direta com o servidor. Um exemplo é o uso de JavaScript para verificação de formulários (se o campo foi preenchido, como verificação de CPF, CEP e etc.) ou tratamento de eventos com o mouse (ao clicar, executar tal operação, ao passar o mouse, ao digitar, etc.). <br>
+
+        Server-side scripts, ou scripts do lado do servidor, são responsáveis pelas ações executadas no servidor e o cliente (usuário) não enxerga o que está sendo processado. A busca de uma informação ou o cadastro em um banco de dados é feito no lado do servidor por alguma linguagem de programação. <br><br>
+        
+        PHP é server-side, ou seja, primeiramente a página é executada/processada no servidor e então retorna um código HTML, o qual é renderizado (exibido) no navegador (cliente). <br><br>
+        
+        Veja um esquema de funcionamento:</p>
+    <img src="./images/clientServer.850.png" alt="">
+    <ol>Acompanhe a descrição textual dos passos, usando o esquema cima:
+        <li> O cliente (você) acessa o site: http://www.treinaweb.com.br/
+        </li>
+        <li>O servidor recebe essa requisição e o PHP está configurado para rodar nesse servidor. A requisição é encaminhada do servidor para o interpretador do PHP.
+            </li>
+        <li>O interpretador do PHP executa o script cursos.php.</li>
+        <li>
+            O script cursos.php possui códigos para acesso ao banco de dados que retorna a lista de cursos.</li>
+        <li>
+            O PHP retorna esse resultado, organizado , para o servidor que retorna para o navegador (cliente).</li>
+    </ol>
+</body>
+</html>
