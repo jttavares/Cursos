@@ -1,0 +1,29 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1, h3{
+    background-color: #ddd;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+}
+textarea{
+    width: 100%;
+}
+img{
+    width: 100%;
+    max-width: 750px;
+}
+table, td, th{
+    border: solid 1px #000;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th{
+    background-color:aquamarine;
+}
+.div-tw{
+    border: solid 1px black;
+    background-color: yellow;
+    height: 50px;
+}
